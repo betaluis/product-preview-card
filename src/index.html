@@ -13,11 +13,38 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  
+<body class="bg-cream">
+
+  <div class="min-h-screen grid place-items-center p-6">
+      <div class="container-md shadow-lg">
+        <div class="flex flex-col md:flex-row rounded-lg overflow-hidden">
+          <div class="max-h-72 md:max-h-full md:flex-1 md:w-80">
+            <img class="hidden md:block w-full object-cover md:h-full" src="../public/images/perfume.jpg" alt="">
+            <img class="md:hidden w-full object-cover" src="../public/images/mobile-perfume.jpg" alt="">
+          </div>
+          <div class="w-full p-6 md:w-80 md:p-8 bg-white ">
+            <span class="font-body uppercase text-dark-gray inline-block mb-4 tracking-[.2rem]">PERFUME</span>
+            <h2 class="font-['Fraunces'] text-4xl font-black mb-6">Gabrielle Essence Eau De Parfum</h2>
+            <p class="text-dark-gray mb-6 text-md leading-6">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div class="mb-8">
+              <span class="font-['Fraunces'] text-4xl font-bold text-dark-cyan inline-block mr-4">$149.99</span>
+              <span class="text-lg font-medium text-dark-gray line-through inline-block relative -top-1.5">$169.99</span>
+            </div>
+            <a href="#">
+              <div class="bg-dark-cyan hover:bg-green-900 transition flex justify-center items-center gap-2 py-4 rounded-lg">
+                <img src="../public/images/icon-cart.svg" class="inline-block" alt="">
+                <span class="text-white font-bold text-sm">Add to Cart</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Luis Betancourt</a>.
   </footer>
+
 </body>
 </html>

@@ -1,13 +1,10 @@
+
 module.exports = {
   content: [
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'body': ['Montserrat', 'sans-serif'],
-        'serif': ['Fraunces', 'serf'],
-      },
+    extend: { 
       fontFamily: { 
         sm: ['10px', '15px'],
         base: ['14px', '20px'],
