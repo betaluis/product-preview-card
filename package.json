@@ -4,7 +4,7 @@
   },
   "name": "product-review-card",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.html",
   "repository": "git@github.com:betaluis/product-preview-card",
   "author": "betaluis <luis.betancourt.dev@gmail.com>",
   "license": "MIT",
